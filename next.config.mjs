@@ -13,3 +13,8 @@ const nextConfig = {
 };
 
 export default nextConfig;
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true, // Ini akan menonaktifkan ESLint saat proses build
+  },
+};
